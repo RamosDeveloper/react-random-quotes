@@ -15,7 +15,7 @@ const QuoteBox = ({quote,color,setRandomQuoteAndColor}) => {
         <div className="QuoteContainer container d-flex align-items-center justify-content-center'">
             <figure>
                 <blockquote className="blockquote">
-                    <p style={style.quote}>{quote.quote}</p>
+                    <p style={style.quote}><i className="fas fa-quote-left"></i> {quote.quote} <i className="fas fa-quote-right"></i></p>
                 </blockquote>
                 <figcaption className="blockquote-footer mb-3">
                     <span style={style.author}>{quote.author}</span>
